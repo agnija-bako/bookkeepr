@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookkeepr.Api", "Bookkeepr.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "..\DataModels\DataModels.csproj", "{3F3EDD6D-082D-40C3-899C-6230C5D40DD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookkeepr.Front", "Bookkeepr.Front\Bookkeepr.Front.csproj", "{75F0BE1B-12BF-4FD2-B69A-B4A1F91FCB4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3F3EDD6D-082D-40C3-899C-6230C5D40DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3EDD6D-082D-40C3-899C-6230C5D40DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3EDD6D-082D-40C3-899C-6230C5D40DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F0BE1B-12BF-4FD2-B69A-B4A1F91FCB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F0BE1B-12BF-4FD2-B69A-B4A1F91FCB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F0BE1B-12BF-4FD2-B69A-B4A1F91FCB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F0BE1B-12BF-4FD2-B69A-B4A1F91FCB4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

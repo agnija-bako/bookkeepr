@@ -24,4 +24,41 @@
     <ProjectReference Include="..\DataModels\DataModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Bookkeepr.Front\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Bookkeepr.Front\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Bookkeepr.Front\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Bookkeepr.Front\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\Pages\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\Pages\_ViewImports.cshtml" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\appsettings.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\bin\Debug\net6.0\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\bin\Debug\net6.0\appsettings.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\bin\Debug\net6.0\Bookkeepr.Front.deps.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\bin\Debug\net6.0\Bookkeepr.Front.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\bin\Debug\net6.0\spa.proxy.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\ClientApp\package-lock.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\ClientApp\package.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\ClientApp\public\manifest.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\obj\Bookkeepr.Front.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\obj\Debug\net6.0\spa.proxy.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\obj\Debug\net6.0\staticwebassets.build.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="Bookkeepr.Front\Properties\launchSettings.json" />
+  </ItemGroup>
+
 </Project>
